@@ -4,7 +4,7 @@ from streamlit_option_menu import option_menu
 
 #Loading th saved model
 
-stroke_model = pickle.load(open("C:/Users/axena/strokePrediction/stroke_model.sav", 'rb'))
+stroke_model = pickle.load(open("stroke_model.sav", 'rb'))
 
 st.title("Stroke Prediction using Machine Learning")
 
